@@ -1,0 +1,149 @@
+@import "public";
+@import "publicSub";
+
+//purchase
+#purchase{
+    padding-left:80px;
+    overflow: hidden;
+    .div1{
+        ul{
+            li{
+                height:90px;
+                border-bottom:1px solid #9a9a9a;
+                p{
+                    font-size: 12px;
+                    float:left;
+                    img{
+                        width:70px;
+                        height:70px;
+                    }
+                    input{
+                        text-align: center;
+                        line-height: 18px;
+                    }
+                }
+                p:first-child{
+                    position: relative;
+                    width:300px;
+                    height:90px;
+                    a{
+                        color:#551a8b;
+                        position: absolute;
+                        left:105px;top:32px;
+                    }
+                    input{
+                      position: absolute;
+                      left:0;top:42px;  
+                    }
+                    img{
+                        position: absolute;
+                        left:26px;top:10px;
+                    }
+                    span:first-of-type{
+                        position: absolute;
+                        left:105px;top:50px;
+                    }
+                    span:nth-of-type(2){
+                        position: absolute;
+                        left:130px;top:50px;
+                    }
+                }
+                p:nth-child(2){
+                    padding-top:37px;
+                    margin:0 40px 0 10px;
+                    input{
+                        width:28px;
+                        height:20px;
+                        border: 1px solid #a9a9a9;
+                        cursor: pointer;
+                    }
+                    input:nth-child(2){
+                        width:49px;
+                        height:20px;
+                        cursor: default;
+                    }
+                }
+                p:last-child{
+                    padding-top:40px;
+                    span{
+                        margin-right:10px;
+                    }
+                    a{
+                        margin-right:10px;
+                    }
+                }
+            }
+        }
+    }
+    .div2{
+        height:147px;
+        padding-left:10px;
+        p{
+            font-size: 12px;
+            margin-top:10px;
+            span:last-child{
+                color: #e12222;
+            }
+            input{
+                width:42px;
+                height:21px;
+                background:#fc2d8a;
+                font-size: 12px;
+                color:#fff;
+                border:2px solid #d91c71;
+                margin-top:25px;
+            }
+            input:hover{
+                background:#e62097; 
+            }
+        }
+        p:nth-child(2){
+            width:506px;
+            height:24px;
+            line-height: 24px;
+            padding-left:3px;
+            border:1px solid #ddd;
+        }
+    }
+}
+
+//上侧固定栏 topFix
+#topFix{
+    width:1224px;
+    position:fixed;
+    top:0;
+    z-index: 100; 
+    background: #982247;
+    height:50px;
+    padding-top:5px;
+    img{
+        float:left;
+        margin-left:57px;
+        margin-right: 75px;
+        height:40px;
+    }
+    .inp{
+        width:1000px;
+        height:31px;
+        float:left;
+        padding-top:5px;
+        input{
+            float:left;
+            width:812px;
+            height:31px;
+            color:#a9a9a9;
+            border:0;
+            padding-left: 3px;
+        }
+        .a1{
+            font-size:16px;
+            float:left;
+            width:100px;
+            height:33px;
+            background:#c42c33;
+            color:#fff;
+            text-align:center;
+            line-height:33px;
+        }
+    }
+}

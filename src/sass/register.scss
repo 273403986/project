@@ -1,0 +1,94 @@
+@import "public";
+@import "publicLogin";
+#start{
+    form{
+        width:340px;
+        height:290px;
+        position:relative;
+        font-size: 12px;
+        input{
+            width:300px;
+            height:45px;
+            border:1px solid #c8c8c8;
+            margin-bottom: 10px;
+            padding-left: 3px;
+        }
+        input:nth-of-type(2){
+            width:170px;
+            margin-top:10px;
+        }
+        input:nth-of-type(3){
+            width:170px;
+            margin-bottom: 20px;
+        }
+        input:nth-of-type(4){
+            width:100px;
+            height:40px;
+            background: #e1e1e1;
+            border:2px solid #949494;
+            border-radius: 5px;
+            color: #8a7e8a;
+        }
+        input:last-of-type{
+            background: #94193f;
+            margin-top:25px;
+            font-size: 16px;
+            color:#fff;
+        }
+        input:last-of-type:hover{
+            cursor: pointer;
+            background: #a82045;
+        }
+        input:nth-of-type(7){
+            position:absolute;
+            left:-140px;
+            top:290px;
+        }
+        a:first-of-type{
+            display: block;
+            position: absolute;
+            right:70px;top:70px;
+            letter-spacing: 5px;
+            border:1px solid #aaa;
+            font-size: 18px;
+            width:90px;
+            height:40px;
+            text-align: center;
+            line-height: 40px;
+            background:orange; 
+        }
+        span{
+            position:absolute;
+            left:20px;top:305px;
+            font-size: 12px;
+            color:#000;
+        }
+        a:last-of-type{
+            position:absolute;
+            left:230px;top:303px;
+            font-size: 12px;
+            line-height: 20px;
+            text-align: center;
+            color: #fff;
+            width:50px;
+            height:23px;
+            background: #94193f;
+        }
+        p{
+            position:absolute;
+            width:170px;
+            font-size: 16px;
+            color:red;
+            display: none;
+        }
+        p:first-of-type{
+            left:310px;top:10px;   
+        }
+        p:nth-of-type(2){
+            left:310px;top:200px;
+        }
+        p:last-of-type{
+            left:310px;top:260px;
+        }
+    }
+}

@@ -1,0 +1,45 @@
+#top,#start{width:1264px;}
+//top
+#top{
+    height:140px;
+    .logo{
+        padding:48px 0 0 147px;
+    }
+}
+
+//start
+#start{
+    width:494px;
+    padding-left:770px ;
+    height: 440px;
+    padding-top:35px;
+    h2{
+        font-size: 12px;
+        height:60px;
+        p{
+            font-size: 20px;
+            color: #c41f3a;
+            float: left;
+            margin-right: 100px;
+            line-height: 20px;
+        }
+        span{
+            float: left;
+            color:#8c8c8c;
+            height:20px;
+            line-height: 20px;
+        }
+        a{
+            float: left;
+            height: 20px;
+            line-height: 20px;
+            color:#c41f3a;
+        }
+    }
+}
+
+
+//yqLink
+#yqLink{
+    border-top:0;
+}
